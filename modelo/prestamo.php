@@ -53,12 +53,12 @@ class Prestamo
 
     public function MostrarDatos()
     {
-        echo $this->montoSolicitado;
+        echo $this->getMontoSolicitado();
         echo '<hr>';
-        echo $this->tasaEfectivaMensual;
+        echo $this->getTasaEfectivaMensual();
         echo '<hr>';
-        echo $this->cantidadCuotas;
+        echo $this->getCantidadCuotas();
         echo '<hr>';
-        echo $this->costoFinancieroTotal;
+        echo $this->getTasaEfectivaMensual();
     }
 }
